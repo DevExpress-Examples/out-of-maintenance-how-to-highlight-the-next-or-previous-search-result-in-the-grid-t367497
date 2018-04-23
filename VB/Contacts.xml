@@ -1,0 +1,477 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Contacts">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="ProductID" type="xs:int" minOccurs="0" />
+                <xs:element name="FirstName" type="xs:string" minOccurs="0" />
+                <xs:element name="LastName" type="xs:string" minOccurs="0" />
+                <xs:element name="Company" type="xs:string" minOccurs="0" />
+                <xs:element name="Address" type="xs:string" minOccurs="0" />
+                <xs:element name="City" type="xs:string" minOccurs="0" />
+                <xs:element name="State" type="xs:string" minOccurs="0" />
+                <xs:element name="ZipCode" type="xs:string" minOccurs="0" />
+                <xs:element name="Customer" type="xs:boolean" minOccurs="0" />
+                <xs:element name="PurchaseDate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="HomePhone" type="xs:string" minOccurs="0" />
+                <xs:element name="FaxPhone" type="xs:string" minOccurs="0" />
+                <xs:element name="PaymentType" type="xs:string" minOccurs="0" />
+                <xs:element name="PaymentAmount" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="HyperLink" type="xs:string" minOccurs="0" />
+                <xs:element name="Copies" type="xs:short" minOccurs="0" />
+                <xs:element name="Time" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Percent" type="xs:int" minOccurs="0" />
+                <xs:element name="Color" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>            
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Contacts" />
+        <xs:field xpath="ID" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Contacts>
+    <ID>1</ID>
+    <ProductID>19</ProductID>
+    <FirstName>John</FirstName>
+    <LastName>Doe</LastName>
+    <Company>Doe Enterprises</Company>
+    <Address>123 Home Lane</Address>
+    <City>Homesville</City>
+    <State>CA</State>
+    <ZipCode>55555</ZipCode>
+    <Customer>false</Customer>
+    <PurchaseDate>2000-09-01T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(111)111-1111</HomePhone>
+    <FaxPhone>(444)444-4444</FaxPhone>
+    <PaymentType>AMEX</PaymentType>
+    <PaymentAmount>350.88</PaymentAmount>
+    <Description>This is a description for John Doe.
+Notice the Auto Preview Feature..</Description>
+    <HyperLink>http://www.devexpress.com</HyperLink>
+    <Copies>1</Copies>
+    <Time>1899-12-30T01:00:09.0000000</Time>
+    <Percent>25</Percent>
+    <Color>-10496</Color>
+  </Contacts>
+  <Contacts>
+    <ID>2</ID>
+    <ProductID>22</ProductID>
+    <FirstName>Sam</FirstName>
+    <LastName>Hill</LastName>
+    <Company>Hill Corporation</Company>
+    <Address>45 Hill St.</Address>
+    <City>Hillsville</City>
+    <State>NJ</State>
+    <ZipCode>44444</ZipCode>
+    <Customer>true</Customer>
+    <PurchaseDate>2003-10-13T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(222)222-2222</HomePhone>
+    <FaxPhone>(222)222-2222</FaxPhone>
+    <PaymentType>VISA</PaymentType>
+    <PaymentAmount>200</PaymentAmount>
+    <Description>This is a description for Sam Hill.
+Notice the Auto Preview Feature.</Description>
+    <HyperLink>http://www.devexpress.com</HyperLink>
+    <Copies>2</Copies>
+    <Percent>30</Percent>
+    <Color>-256</Color>
+  </Contacts>
+  <Contacts>
+    <ID>3</ID>
+    <ProductID>11</ProductID>
+    <FirstName>Karen</FirstName>
+    <LastName>Holmes</LastName>
+    <Company>Holmes World</Company>
+    <Address>9333 Holmes Dr.</Address>
+    <City>Johnsonville</City>
+    <State>NY</State>
+    <ZipCode>12121</ZipCode>
+    <Customer>false</Customer>
+    <PurchaseDate>2001-04-25T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(333)333-3333</HomePhone>
+    <FaxPhone>(212)556-5655</FaxPhone>
+    <PaymentType>CASH</PaymentType>
+    <PaymentAmount>250</PaymentAmount>
+    <Description>This is a description for Karen Holmes.
+Notice the Auto Preview Feature.</Description>
+    <Copies>8</Copies>
+    <Time>1899-12-30T10:00:00.0000000</Time>
+    <Percent>55</Percent>
+    <Color>-16776961</Color>
+  </Contacts>
+  <Contacts>
+    <ID>4</ID>
+    <ProductID>20</ProductID>
+    <FirstName>Bobbie</FirstName>
+    <LastName>Valentine</LastName>
+    <Company>Valentine Hearts</Company>
+    <Address>933 Heart St. Suite </Address>
+    <City>Chicago</City>
+    <State>IL</State>
+    <ZipCode>89123</ZipCode>
+    <Customer>true</Customer>
+    <PurchaseDate>2003-01-25T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(898)745-1511</HomePhone>
+    <FaxPhone>(321)516-5151</FaxPhone>
+    <PaymentType>MASTER</PaymentType>
+    <PaymentAmount>194</PaymentAmount>
+    <Copies>4</Copies>
+    <Time>1899-12-30T15:12:00.0000000</Time>
+    <Percent>30</Percent>
+    <Color>-4144960</Color>
+  </Contacts>
+  <Contacts>
+    <ID>5</ID>
+    <ProductID>23</ProductID>
+    <FirstName>Jennie</FirstName>
+    <LastName>Valentine</LastName>
+    <Company>Valentine Hearts</Company>
+    <Address>933 Heart St. Suite </Address>
+    <City>Chicago</City>
+    <State>IL</State>
+    <ZipCode>89123</ZipCode>
+    <Customer>true</Customer>
+    <PurchaseDate>2002-09-30T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(898)745-1511</HomePhone>
+    <FaxPhone>(321)516-5151</FaxPhone>
+    <PaymentType>CASH</PaymentType>
+    <PaymentAmount>76.02</PaymentAmount>
+    <Description>This is a description for Jennie Valentine.
+Notice the Auto Preview Feature.</Description>
+    <Copies>5</Copies>
+    <Time>1899-12-30T12:36:26.0000000</Time>
+    <Percent>75</Percent>
+    <Color>-1</Color>
+  </Contacts>
+  <Contacts>
+    <ID>6</ID>
+    <ProductID>21</ProductID>
+    <FirstName>Ricardo</FirstName>
+    <LastName>Menendez</LastName>
+    <Company>Menedez Development</Company>
+    <Address>939 Center Street</Address>
+    <City>Atlanta</City>
+    <State>GA</State>
+    <ZipCode>45012</ZipCode>
+    <Customer>false</Customer>
+    <PurchaseDate>2000-10-29T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(151)615-1611</HomePhone>
+    <FaxPhone>(656)161-6516</FaxPhone>
+    <PaymentType>AMEX</PaymentType>
+    <PaymentAmount>203</PaymentAmount>
+    <Description>This is a description for Ricardo Menendez.
+Notice the Auto Preview Feature.</Description>
+    <Copies>6</Copies>
+    <Percent>85</Percent>
+    <Color>-16777024</Color>
+  </Contacts>
+  <Contacts>
+    <ID>7</ID>
+    <ProductID>1</ProductID>
+    <FirstName>Frank</FirstName>
+    <LastName>Frankson</LastName>
+    <Company>Frankson Media</Company>
+    <Address>121 Media Center Dri</Address>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>12121</ZipCode>
+    <Customer>false</Customer>
+    <PurchaseDate>2001-10-02T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(339)339-3939</HomePhone>
+    <FaxPhone>(393)090-2099</FaxPhone>
+    <PaymentType>CASH</PaymentType>
+    <PaymentAmount>200</PaymentAmount>
+    <Description>This is a description for Frank Frankson.
+Notice the Auto Preview Feature.</Description>
+    <Copies>7</Copies>
+    <Percent>40</Percent>
+    <Color>-65536</Color>
+  </Contacts>
+  <Contacts>
+    <ID>8</ID>
+    <ProductID>20</ProductID>
+    <FirstName>Christa</FirstName>
+    <LastName>Christie</LastName>
+    <Company>Christies House of Design</Company>
+    <Address>349 Graphic Design L</Address>
+    <City>Los Angeles</City>
+    <State>NY</State>
+    <ZipCode>12211</ZipCode>
+    <Customer>true</Customer>
+    <PurchaseDate>2000-10-07T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(939)399-9999</HomePhone>
+    <FaxPhone>(909)098-0098</FaxPhone>
+    <PaymentType>AMEX</PaymentType>
+    <PaymentAmount>246</PaymentAmount>
+    <Description>This is a description for Christa Christie.
+Notice the Auto Preview Feature.</Description>
+    <Copies>8</Copies>
+    <Percent>90</Percent>
+    <Color>-16744448</Color>
+  </Contacts>
+  <Contacts>
+    <ID>9</ID>
+    <ProductID>19</ProductID>
+    <FirstName>Jimmie</FirstName>
+    <LastName>Jones</LastName>
+    <Company>Jones &amp; Assoc</Company>
+    <Address>990 King Lane</Address>
+    <City>Kingsville</City>
+    <State>CA</State>
+    <ZipCode>93939</ZipCode>
+    <Customer>false</Customer>
+    <PurchaseDate>2000-10-02T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(993)939-9399</HomePhone>
+    <FaxPhone>(930)930-9809</FaxPhone>
+    <PaymentType>AMEX</PaymentType>
+    <PaymentAmount>249.99</PaymentAmount>
+    <Description>This is a description for Jimmie Jones.
+Notice the Auto Preview Feature.</Description>
+    <Copies>9</Copies>
+    <Percent>65</Percent>
+    <Color>-8586240</Color>
+  </Contacts>
+  <Contacts>
+    <ID>10</ID>
+    <ProductID>10</ProductID>
+    <FirstName>Alfred</FirstName>
+    <LastName>Newman</LastName>
+    <Company>Newman Systems</Company>
+    <Address>900 Newman Center</Address>
+    <City>Newman</City>
+    <State>OK</State>
+    <ZipCode>9900-</ZipCode>
+    <Customer>true</Customer>
+    <PurchaseDate>2002-10-10T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(930)930-3093</HomePhone>
+    <FaxPhone>(909)098-0098</FaxPhone>
+    <PaymentType>CASH</PaymentType>
+    <PaymentAmount>206</PaymentAmount>
+    <Description>This is a description for Alfred Newman.
+Notice the Auto Preview Feature.</Description>
+    <Copies>0</Copies>
+    <Time>1899-12-30T17:09:09.0000000</Time>
+    <Percent>25</Percent>
+  </Contacts>
+  <Contacts>
+    <ID>11</ID>
+    <ProductID>19</ProductID>
+    <FirstName>James</FirstName>
+    <LastName>Johnson</LastName>
+    <Company>Development House</Company>
+    <Address>93900 Carter Lane</Address>
+    <City>Cartersville</City>
+    <State>GA</State>
+    <ZipCode>909309</ZipCode>
+    <Customer>false</Customer>
+    <PurchaseDate>2002-09-30T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(309)209-3020</HomePhone>
+    <FaxPhone>(094)302-8908</FaxPhone>
+    <PaymentType>CASH</PaymentType>
+    <PaymentAmount>203</PaymentAmount>
+    <Description>This is a description for James Johnson.
+Notice the Auto Preview Feature.</Description>
+    <Copies>3</Copies>
+    <Percent>70</Percent>
+    <Color>-329006</Color>
+  </Contacts>
+  <Contacts>
+    <ID>12</ID>
+    <ProductID>19</ProductID>
+    <FirstName>Robert</FirstName>
+    <LastName>James</LastName>
+    <Company>James Systems</Company>
+    <Address>390-1 Fourth St.</Address>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>12121</ZipCode>
+    <Customer>true</Customer>
+    <PurchaseDate>2000-09-11T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(029)020-9090</HomePhone>
+    <FaxPhone>(090)909-0090</FaxPhone>
+    <PaymentType>VISA</PaymentType>
+    <PaymentAmount>246</PaymentAmount>
+    <Description>This is a description for Robert James.
+Notice the Auto Preview Feature.</Description>
+    <Copies>4</Copies>
+    <Percent>15</Percent>
+    <Color>-16728065</Color>
+  </Contacts>
+  <Contacts>
+    <ID>13</ID>
+    <ProductID>21</ProductID>
+    <FirstName>June</FirstName>
+    <LastName>Alessandro</LastName>
+    <Company>Alessandro &amp; Associates</Company>
+    <Address>90283 Los Angeles Av</Address>
+    <City>Lansing</City>
+    <State>CA</State>
+    <ZipCode>93090</ZipCode>
+    <Customer>true</Customer>
+    <PurchaseDate>1998-10-01T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(902)092-0930</HomePhone>
+    <FaxPhone>(920)983-0202</FaxPhone>
+    <PaymentType>VISA</PaymentType>
+    <PaymentAmount>250</PaymentAmount>
+    <Copies>2</Copies>
+    <Percent>90</Percent>
+    <Color>-2572328</Color>
+  </Contacts>
+  <Contacts>
+    <ID>14</ID>
+    <ProductID>20</ProductID>
+    <FirstName>Mildred</FirstName>
+    <LastName>Johansson</LastName>
+    <Company>Mildreds World</Company>
+    <Address>390290 Mildred Lane</Address>
+    <City>Cleveland</City>
+    <State>OH</State>
+    <ZipCode>37288-2323</ZipCode>
+    <Customer>true</Customer>
+    <PurchaseDate>2000-10-19T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(090)983-0248</HomePhone>
+    <FaxPhone>(190)890-0283</FaxPhone>
+    <PaymentType>AMEX</PaymentType>
+    <PaymentAmount>199</PaymentAmount>
+    <Description>This is a description for Mildred Johansson.
+Notice the Auto Preview Feature.</Description>
+    <Copies>3</Copies>
+    <Percent>100</Percent>
+    <Color>-32768</Color>
+  </Contacts>
+  <Contacts>
+    <ID>15</ID>
+    <ProductID>19</ProductID>
+    <FirstName>Henry</FirstName>
+    <LastName>McAllister</LastName>
+    <Company>McAllister Systems</Company>
+    <Address>029-938 Excelsior Wa</Address>
+    <City>San Francisco</City>
+    <State>CA</State>
+    <ZipCode>98454</ZipCode>
+    <Customer>true</Customer>
+    <PurchaseDate>1999-09-02T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(923)022-0834</HomePhone>
+    <FaxPhone>(084)029-8028</FaxPhone>
+    <PaymentType>VISA</PaymentType>
+    <PaymentAmount>249</PaymentAmount>
+    <Copies>4</Copies>
+    <Percent>40</Percent>
+  </Contacts>
+  <Contacts>
+    <ID>16</ID>
+    <ProductID>10</ProductID>
+    <FirstName>Michael</FirstName>
+    <LastName>Jeffers</LastName>
+    <Company>Jeffers Clinic</Company>
+    <Address>233 First St.</Address>
+    <City>Los Angeles</City>
+    <State>CA</State>
+    <ZipCode>92939</ZipCode>
+    <Customer>true</Customer>
+    <PurchaseDate>2002-10-22T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(093)008-3023</HomePhone>
+    <FaxPhone>(080)098-9008</FaxPhone>
+    <PaymentType>VISA</PaymentType>
+    <PaymentAmount>200</PaymentAmount>
+    <Description>This is a description for Michael Jeffers.
+Notice the Auto Preview Feature.</Description>
+    <Copies>1</Copies>
+    <Percent>65</Percent>
+    <Color>-989556</Color>
+  </Contacts>
+  <Contacts>
+    <ID>17</ID>
+    <ProductID>1</ProductID>
+    <FirstName>Scott</FirstName>
+    <LastName>Mathewson</LastName>
+    <Company>Mathewson Design</Company>
+    <Address>111 McHenry St.</Address>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>11111-2222</ZipCode>
+    <Customer>true</Customer>
+    <PurchaseDate>2000-10-14T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(209)093-8498</HomePhone>
+    <FaxPhone>(098)900-9890</FaxPhone>
+    <PaymentType>MASTER</PaymentType>
+    <PaymentAmount>200</PaymentAmount>
+    <Description>This is a description for Scott Mathewson.
+Notice the Auto Preview Feature.</Description>
+    <Copies>2</Copies>
+    <Percent>20</Percent>
+    <Color>-360334</Color>
+  </Contacts>
+  <Contacts>
+    <ID>18</ID>
+    <ProductID>21</ProductID>
+    <FirstName>Mickey</FirstName>
+    <LastName>Alcorn</LastName>
+    <Company>Mickeys World of Fun</Company>
+    <Address>436 1st Ave.</Address>
+    <City>Cleveland</City>
+    <State>OH</State>
+    <ZipCode>37288</ZipCode>
+    <Customer>true</Customer>
+    <PurchaseDate>2000-10-02T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(203)290-8902</HomePhone>
+    <FaxPhone>(098)902-9834</FaxPhone>
+    <PaymentType>VISA</PaymentType>
+    <PaymentAmount>250</PaymentAmount>
+    <Description>This is a description for Mickey Alcorn.
+Notice the Auto Preview Feature.</Description>
+    <Copies>3</Copies>
+    <Percent>75</Percent>
+    <Color>-256</Color>
+  </Contacts>
+  <Contacts>
+    <ID>19</ID>
+    <ProductID>20</ProductID>
+    <FirstName>Roger</FirstName>
+    <LastName>Michelson</LastName>
+    <Company>Michelson Systems</Company>
+    <Address>3920 Michelson Dr.</Address>
+    <City>Bridgeford</City>
+    <State>CT</State>
+    <ZipCode>93200</ZipCode>
+    <Customer>false</Customer>
+    <PurchaseDate>2003-10-07T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(131)083-1838</HomePhone>
+    <FaxPhone>(098)900-8304</FaxPhone>
+    <PaymentType>VISA</PaymentType>
+    <PaymentAmount>45</PaymentAmount>
+    <Copies>2</Copies>
+    <Percent>90</Percent>
+    <Color>-32513</Color>
+  </Contacts>
+  <Contacts>
+    <ID>20</ID>
+    <ProductID>19</ProductID>
+    <FirstName>Leticia</FirstName>
+    <LastName>Ford</LastName>
+    <Company>Ford Consulting</Company>
+    <Address>2900 Ford Drive</Address>
+    <City>Lansing</City>
+    <State>MI</State>
+    <ZipCode>23920</ZipCode>
+    <Customer>false</Customer>
+    <PurchaseDate>1999-08-31T00:00:00.0000000</PurchaseDate>
+    <HomePhone>(228)320-8320</HomePhone>
+    <FaxPhone>(909)098-0098</FaxPhone>
+    <PaymentType>MASTER</PaymentType>
+    <PaymentAmount>249.99</PaymentAmount>
+    <Copies>3</Copies>
+    <Percent>10</Percent>
+    <Color>-16776961</Color>
+  </Contacts>
+</NewDataSet>
